@@ -1,0 +1,25 @@
+#container{
+    background-color: red;
+    height: 300px;
+    width: 450px;
+    position: relative;
+}
+
+#first{
+    background-color: rgb(19, 19, 79);
+    height: 120px;
+    width: 450px;
+    position: absolute;
+    top: 85px;
+
+}
+
+#second{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    position: absolute;
+    top: 95px;
+    left: 155px;
+}

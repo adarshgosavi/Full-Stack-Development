@@ -1,0 +1,45 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 50px;
+    
+}
+
+/* @media screen and (max-width:600px) {
+    .container{
+        background-color: red;
+        font-size: 30px;
+    }
+} */
+
+/* @media screen and (max-width:850px){
+    .container{
+        background-color: rgb(31, 78, 207);
+        font-size: 40px;
+    }
+}
+/*  */
+
+
+@media screen and (min-width:600px){
+    .container{
+        background-color: rgb(255, 157, 0);
+        font-size: 60px;
+    }
+} 
+
+@media screen and (min-width:500px){
+    .container{
+        background-color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+} 
+
+
+@media screen and (min-width:900px){
+    .container{
+        background-color: rgb(42, 253, 0);
+        font-size: 80px;
+    }
+} 

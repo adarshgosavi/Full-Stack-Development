@@ -1,0 +1,40 @@
+#container{
+    background-color: yellow;
+    height: 200px;
+    width: 300px; 
+    position: relative;
+}
+
+#firstbox{
+    background-color: blue;
+    height: 85px;
+    width: 85px;
+    position: fixed;
+    top:123px;
+}
+
+#secondbox{
+    background-color: blue;
+    height: 85px;
+    width: 85px;
+    
+}
+
+#thirdbox{
+    background-color: blue;
+    height: 85px;
+    width: 182px;
+    position: absolute;
+    left: 118px;
+    top: 115px;
+    
+}
+
+#fourthbox{
+    background-color: blue;
+    height: 85px;
+    width: 182px;
+    position: absolute;
+    left: 118px;
+    bottom: 115px;
+}
