@@ -29,4 +29,12 @@
 // console.log(Math.LN10)
 // console.log(Math.max(10,54,87,875,85,75,84,58,445,87))
 // console.log(Math.min(4,57,47,8,51,2,85,5))
-console.log(Math.floor (Math.random()*6) + 1)
+
+// console.log(Math.floor (Math.random()* 11) + 15)
+
+//Formula: Math.floor(Math.random()*(max-min+1)) + min
+
+// OTP Generate: 4 digit: 1000-9999
+
+console.log("OTP Genarate =" , Math.floor (Math.random()*(9999-1000 + 1)) + 1000)
+ 
