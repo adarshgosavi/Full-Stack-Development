@@ -29,4 +29,4 @@
 // console.log(Math.LN10)
 // console.log(Math.max(10,54,87,875,85,75,84,58,445,87))
 // console.log(Math.min(4,57,47,8,51,2,85,5))
-console.log(Math.floor (Math.random()*10))
+console.log(Math.floor (Math.random()*6) + 1)
