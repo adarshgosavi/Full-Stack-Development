@@ -136,13 +136,16 @@
 // console.log(user)
 
 
+///Key: String || Symbol
 
+const sym = Symbol("id")
 
 const user = {
     name:"Adarsh",
     age: 21,
     0:1000,
-    2:"Gosavi"
+    2:"Gosavi",
+    [sym]:"Hello World"
 }
 
-console.log(user[2])
+console.log(user[sym])
