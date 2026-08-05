@@ -84,6 +84,57 @@
 
 
 
-const name =["Adarsh" , "Jay" , "Abhinav" , "Rohan"]
+// const name =["Adarsh" , "Jay" , "Kriti" ,"Piyush", "Sanket", "Rohan"]
 // console.log(typeof name.toString())
-console.log(name.join("->"))
+// console.log(name.join("->"))
+// console.log(name.indexOf("Jay"))
+// console.log(name.lastIndexOf("Jay"))
+// console.log(name.includes("Jay"))
+
+//sort
+// console.log(name.sort())
+
+// name.reverse()
+// console.log(name)
+
+
+
+// const arr = [101,70,80,32,91]
+// console.log(arr)
+
+// // console.log(a.sort()) not sort 
+
+// arr.sort((a,b)=>a-b)
+
+// // -ve: pehle a aayega fr b aayega
+// // +ve: b aayega fr a aayega
+// console.log(arr)
+
+// arr.sort((a,b)=> b-a)
+// console.log(arr)
+
+
+
+// Because:
+// b - a negative → larger value comes first.
+// b - a positive → smaller value moves later.
+
+
+// Summary
+// sort() → sorts values as strings (alphabetically) by default.
+// sort((a, b) => a - b) → sorts numbers in ascending order.
+// sort((a, b) => b - a) → sorts numbers in descending order.
+
+
+
+
+// Flattening 
+// const arr = [10,20,[45,45,45,54],30,40,[50,60,[101,102,103],70,80],90,100]
+// const a = arr.flat(Infinity)
+// console.log(a)
+// console.log(arr[4][2][1])
+
+
+const a = [10,50,"Adarsh",45.12,true]
+a.name ="Mohan"
+console.log(a)
