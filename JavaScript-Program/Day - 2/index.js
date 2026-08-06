@@ -126,17 +126,17 @@
 
 // // Non Primitive data type mutable
 
-// let arr = [10,20,30,40]
-// arr.push(50)
-// arr[0] = 100;
-// console.log(arr)
+let arr = [10,20,30,40]
+arr.push(50);
+arr[0] = 100;
+console.log(arr)
 
 
-let obj ={
-        name:"Adarsh",
-        age:21
-}
+// let obj ={
+//         name:"Adarsh",
+//         age:21
+// }
 
-let obj2 = obj
-obj2.name = "Rohan"
-console.log(obj);
+// let obj2 = obj
+// obj2.name = "Rohan"
+// console.log(obj);
