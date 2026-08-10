@@ -96,11 +96,11 @@
 // }
 
 // do-while loop
-// let i = 1;
-// do{
-//     console.log(i)
-//     i++
-// }while(i<=10)
+let i = 1;
+do{
+    console.log(i)
+    i--
+}while(i>=10)
 
 
 // if else statement
@@ -126,13 +126,13 @@
 
 
 //Logical Operator:- && , ||
-let a = 10;
-let b = 10;
-let c = 20;
-console.log(Boolean(a && b))
-console.log(Boolean(a && c))
-console.log(Boolean(a || b))
-console.log(Boolean(a || c))
+// let a = 10;
+// let b = 10;
+// let c = 20;
+// console.log(Boolean(a && b))
+// console.log(Boolean(a && c))
+// console.log(Boolean(a || b))
+// console.log(Boolean(a || c))
 
-// != 
-console.log( 5 != 5)
+// // != 
+// console.log( 5 != 5)
