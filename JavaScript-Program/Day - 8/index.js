@@ -107,15 +107,44 @@
 
 
 //
-function greet(){
-    console.log("Hello Wolrd")
+// function greet(){
+//     console.log("Hello Wolrd")
 
+// }
+
+// function dance(){
+//     console.log("I am Dancing")
+// }
+
+// function meet(callback){
+//     console.log("Nice to meet you")
+//     // dance() // Hardcode (Reusable)
+//     callback();
+//     console.log("I have finished meeting")
+// }
+
+// meet(greet);
+// meet(dance);
+
+
+
+
+
+function blinkitOrderPlaced(){
+    console.log("We have started packing your Order.")
 }
 
-function meet(callback){
-    console.log("Nice to meet you")
+function zomatoOrderPlaced(){
+    console.log("We have started preparing your food.")
+}
+
+function payment(amount,callback){
+    console.log(`${amount} payment has initilized`)
+    console.log("Payment is received")
     callback()
-    console.log("I have finished meeting")
 }
 
-meet(greet);
+payment(600,zomatoOrderPlaced);
+console.log(`------------------
+------------------`)
+payment(500,blinkitOrderPlaced);
