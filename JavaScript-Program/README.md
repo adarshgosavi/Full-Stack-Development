@@ -16,3 +16,4 @@ My day-by-day JavaScript learning journey.
 | 8 | JavaScript Basics | [Day - 8](./Day%20-%208/) |
 | 9 | JavaScript Basics | [Day - 9](./Day%20-%209/) |
 | 10 | JavaScript Basics | [Day - 10](./Day%20-%2010/) |
+| 11 | JavaScript Basics | [Day - 11](./Day%20-%2011/) |
